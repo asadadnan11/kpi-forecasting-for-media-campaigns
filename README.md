@@ -27,13 +27,6 @@ graph TD
     C --> D["⚖️ Model Performance Evaluation<br/>MAPE, RMSE, MAE metrics"]
     D --> E["💰 Budget Scenario Analysis<br/>4 optimization strategies"]
     E --> F["🎯 Strategic Insights<br/>Actionable recommendations"]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#f1f8e9
 ```
 
 ### 1. Synthetic Data Generation
@@ -81,14 +74,6 @@ graph TD
     D1 --> E["🚀 Learning Outcomes"]
     D2 --> E
     D3 --> E
-    
-    style A fill:#ffebee
-    style B fill:#e8f5e8
-    style C fill:#fff3e0
-    style D1 fill:#e1f5fe
-    style D2 fill:#e1f5fe
-    style D3 fill:#e1f5fe
-    style E fill:#f1f8e9
 ```
 
 ### 🚀 Methodological Findings
@@ -142,19 +127,6 @@ graph LR
     B1 --> C2
     B2 --> C3
     B2 --> C4
-    
-    style A1 fill:#e3f2fd
-    style A2 fill:#e3f2fd
-    style A3 fill:#e3f2fd
-    style A4 fill:#e3f2fd
-    style A5 fill:#e3f2fd
-    style A6 fill:#e3f2fd
-    style B1 fill:#e8f5e8
-    style B2 fill:#e8f5e8
-    style C1 fill:#fff3e0
-    style C2 fill:#fff3e0
-    style C3 fill:#fff3e0
-    style C4 fill:#fff3e0
 ```
 
 ## 🛠️ Technologies Used
