@@ -4,29 +4,29 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## 🎯 Project Overview
+## Project Overview
 
 This **academic simulation project** demonstrates the application of time series forecasting techniques to media campaign optimization challenges. Using synthetically generated campaign data, this analysis explores how predictive modeling could theoretically be applied to forecast key marketing KPIs including **Cost Per Acquisition (CPA)**, **Return on Ad Spend (ROAS)**, daily spend, and conversion metrics.
 
 The project serves as a learning exercise to understand how data science methodologies might be applied in marketing analytics contexts, while exploring the practical challenges and limitations of forecasting in dynamic advertising environments.
 
-## 📊 Learning Objectives
+## Learning Objectives
 
-- **🔍 Methodology Application**: Apply time series analysis techniques to marketing data challenges
-- **🔮 Model Comparison**: Compare ARIMA vs ETS forecasting approaches for different KPI types
-- **💰 Scenario Analysis**: Demonstrate how predictive models could inform budget allocation decisions
-- **📈 Business Context**: Translate statistical findings into business-relevant insights and recommendations
-- **⚡ Critical Thinking**: Evaluate model limitations and real-world implementation challenges
+- **Methodology Application**: Apply time series analysis techniques to marketing data challenges
+- **Model Comparison**: Compare ARIMA vs ETS forecasting approaches for different KPI types
+- **Scenario Analysis**: Demonstrate how predictive models could inform budget allocation decisions
+- **Business Context**: Translate statistical findings into business-relevant insights and recommendations
+- **Critical Thinking**: Evaluate model limitations and real-world implementation challenges
 
-## 🔄 Workflow Summary
+## Workflow Summary
 
 ```mermaid
 graph TD
-    A["📊 Synthetic Data Generation<br/>180 days of campaign data"] --> B["🔍 Exploratory Data Analysis<br/>Statistical analysis & visualization"]
-    B --> C["📈 Time Series Modeling<br/>ARIMA & ETS models"]
-    C --> D["⚖️ Model Performance Evaluation<br/>MAPE, RMSE, MAE metrics"]
-    D --> E["💰 Budget Scenario Analysis<br/>4 optimization strategies"]
-    E --> F["🎯 Strategic Insights<br/>Actionable recommendations"]
+    A["Synthetic Data Generation<br/>180 days of campaign data"] --> B["Exploratory Data Analysis<br/>Statistical analysis & visualization"]
+    B --> C["Time Series Modeling<br/>ARIMA & ETS models"]
+    C --> D["Model Performance Evaluation<br/>MAPE, RMSE, MAE metrics"]
+    D --> E["Budget Scenario Analysis<br/>4 optimization strategies"]
+    E --> F["Strategic Insights<br/>Actionable recommendations"]
 ```
 
 ### 1. Synthetic Data Generation
@@ -60,42 +60,42 @@ graph TD
 - Projected impact analysis and ROI calculations
 - Actionable next steps for campaign improvement
 
-## 💡 Analytical Insights & Theoretical Impact
+## Analytical Insights & Theoretical Impact
 
 ```mermaid
 graph TD
-    A["📈 Current Performance"] --> B["🔮 Predictive Forecasting"]
-    B --> C{"💡 Optimization Strategy"}
+    A["Current Performance"] --> B["Predictive Forecasting"]
+    B --> C{"Optimization Strategy"}
     
-    C --> D1["📊 Theoretical Improvements"]
-    C --> D2["💰 Cost Analysis"]
-    C --> D3["🎯 Strategic Insights"]
+    C --> D1["Theoretical Improvements"]
+    C --> D2["Cost Analysis"]
+    C --> D3["Strategic Insights"]
     
-    D1 --> E["🚀 Learning Outcomes"]
+    D1 --> E["Learning Outcomes"]
     D2 --> E
     D3 --> E
 ```
 
-### 🚀 Methodological Findings
+### Methodological Findings
 - **Model Performance**: ARIMA vs ETS comparison reveals different strengths for various KPI types
 - **Forecasting Accuracy**: Analysis demonstrates reasonable predictive capability within synthetic data constraints
 - **Scenario Planning**: Framework shows potential for data-driven budget allocation approaches
 
-### 💰 Theoretical Optimization Opportunities
+### Theoretical Optimization Opportunities
 - Models suggest potential cost savings through performance-based spending patterns
 - Budget reallocation scenarios demonstrate possible efficiency improvements
 - Analysis identifies periods where spend adjustments could theoretically improve ROAS
 
-### 📈 Academic Learning Outcomes
+### Academic Learning Outcomes
 - **Applied Analytics**: Successfully implemented time series forecasting in marketing context
 - **Business Translation**: Converted statistical findings into business-relevant recommendations
 - **Critical Evaluation**: Recognized model limitations and real-world implementation challenges
 
-## 🏗️ Model Architecture & Data Flow
+## Model Architecture & Data Flow
 
 ```mermaid
 graph LR
-    subgraph "📊 Input Data"
+    subgraph "Input Data"
         A1["Daily Spend"]
         A2["Impressions"]
         A3["Clicks"]
@@ -104,12 +104,12 @@ graph LR
         A6["ROAS"]
     end
     
-    subgraph "🔮 Forecasting Models"
+    subgraph "Forecasting Models"
         B1["ARIMA<br/>Trend-based"]
         B2["ETS<br/>Seasonal patterns"]
     end
     
-    subgraph "💰 Optimization Scenarios"
+    subgraph "Optimization Scenarios"
         C1["Current Baseline"]
         C2["ROAS Optimized"]
         C3["Cost Reduction"]
@@ -129,7 +129,7 @@ graph LR
     B2 --> C4
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.8+**: Core programming language
 - **pandas**: Data manipulation and analysis
@@ -140,7 +140,7 @@ graph LR
 - **scikit-learn**: Machine learning metrics and evaluation
 - **jupyter**: Interactive notebook environment
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -171,13 +171,13 @@ jupyter notebook kpi-forecasting-for-media-campaigns.IPYNB
 
 ### Expected Outputs
 
-- **📊 Comprehensive visualizations** of campaign trends and patterns
-- **🔮 Forecasting results** with model performance comparisons
-- **💰 Budget scenario analysis** with optimization recommendations
-- **📈 Strategic insights** and actionable business recommendations
-- **📋 Performance metrics** and model evaluation results
+- **Comprehensive visualizations** of campaign trends and patterns
+- **Forecasting results** with model performance comparisons
+- **Budget scenario analysis** with optimization recommendations
+- **Strategic insights** and actionable business recommendations
+- **Performance metrics** and model evaluation results
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 kpi-forecasting-for-media-campaigns/
@@ -186,14 +186,14 @@ kpi-forecasting-for-media-campaigns/
 └── LICENSE                                     # MIT License
 ```
 
-## 🎯 Academic Applications
+## Academic Applications
 
 - **Business Analytics Students**: Learn time series forecasting methodology in marketing context
 - **Marketing Research**: Understand predictive modeling approaches for campaign optimization
 - **Data Science Education**: Practice implementing ARIMA/ETS models with business interpretation
 - **Case Study Analysis**: Explore theoretical application of analytics to marketing challenges
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Real-time Integration**: Connect with live campaign data APIs
 - **Multi-channel Analysis**: Expand to cross-platform campaign analysis
@@ -201,11 +201,11 @@ kpi-forecasting-for-media-campaigns/
 - **Automated Reporting**: Build dashboards for continuous monitoring
 - **A/B Testing Framework**: Integrate experimental design capabilities
 
-## 📝 Academic Context & Limitations
+## Academic Context & Limitations
 
-> **🎓 ACADEMIC SIMULATION**: This project is designed as a **graduate-level business school simulation** using entirely synthetic data. All campaign data, performance metrics, and optimization results are artificially generated for educational purposes.
+> **ACADEMIC SIMULATION**: This project is designed as a **graduate-level business school simulation** using entirely synthetic data. All campaign data, performance metrics, and optimization results are artificially generated for educational purposes.
 > 
-> **⚠️ IMPORTANT LIMITATIONS**: 
+> **IMPORTANT LIMITATIONS**: 
 > - Results do not reflect real marketing campaign performance
 > - Efficiency gains and cost savings are theoretical calculations based on synthetic data
 > - Real-world implementation would face additional challenges (market dynamics, competitive responses, data quality issues)
@@ -213,14 +213,14 @@ kpi-forecasting-for-media-campaigns/
 > 
 > This analysis demonstrates **methodology and analytical thinking** rather than proven business outcomes.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for suggestions and improvements.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**📚 This simulation demonstrates the application of time series forecasting to marketing analytics challenges, serving as a learning exercise in business data science methodology.**
+**This simulation demonstrates the application of time series forecasting to marketing analytics challenges, serving as a learning exercise in business data science methodology.**
