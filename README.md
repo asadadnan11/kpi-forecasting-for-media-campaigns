@@ -6,17 +6,17 @@
 
 ## 🎯 Project Overview
 
-This project demonstrates advanced **time series forecasting techniques** for optimizing media campaign performance through data-driven insights. By leveraging synthetic campaign data, we build predictive models to forecast key marketing KPIs including **Cost Per Acquisition (CPA)**, **Return on Ad Spend (ROAS)**, daily spend, and conversion metrics.
+This **academic simulation project** demonstrates the application of time series forecasting techniques to media campaign optimization challenges. Using synthetically generated campaign data, this analysis explores how predictive modeling could theoretically be applied to forecast key marketing KPIs including **Cost Per Acquisition (CPA)**, **Return on Ad Spend (ROAS)**, daily spend, and conversion metrics.
 
-The solution enables marketing teams to make proactive budget allocation decisions, identify optimization opportunities, and maximize campaign efficiency through predictive analytics.
+The project serves as a learning exercise to understand how data science methodologies might be applied in marketing analytics contexts, while exploring the practical challenges and limitations of forecasting in dynamic advertising environments.
 
-## 📊 Key Objectives
+## 📊 Learning Objectives
 
-- **🔍 Trend Identification**: Analyze historical campaign performance patterns and seasonal effects
-- **🔮 Predictive Modeling**: Forecast future KPI performance using ARIMA and ETS time series models
-- **💰 Budget Optimization**: Simulate different budget allocation strategies based on forecasted performance
-- **📈 Performance Enhancement**: Generate actionable recommendations for campaign efficiency improvements
-- **⚡ Proactive Management**: Enable data-driven decision making for campaign optimization
+- **🔍 Methodology Application**: Apply time series analysis techniques to marketing data challenges
+- **🔮 Model Comparison**: Compare ARIMA vs ETS forecasting approaches for different KPI types
+- **💰 Scenario Analysis**: Demonstrate how predictive models could inform budget allocation decisions
+- **📈 Business Context**: Translate statistical findings into business-relevant insights and recommendations
+- **⚡ Critical Thinking**: Evaluate model limitations and real-world implementation challenges
 
 ## 🔄 Workflow Summary
 
@@ -67,18 +67,18 @@ graph TD
 - Projected impact analysis and ROI calculations
 - Actionable next steps for campaign improvement
 
-## 💡 Key Insights & Business Impact
+## 💡 Analytical Insights & Theoretical Impact
 
 ```mermaid
 graph TD
     A["📈 Current Performance"] --> B["🔮 Predictive Forecasting"]
     B --> C{"💡 Optimization Strategy"}
     
-    C --> D1["📊 15-25% Efficiency Gains"]
-    C --> D2["💰 Cost Optimization"]
-    C --> D3["🎯 Proactive Management"]
+    C --> D1["📊 Theoretical Improvements"]
+    C --> D2["💰 Cost Analysis"]
+    C --> D3["🎯 Strategic Insights"]
     
-    D1 --> E["🚀 Enhanced ROI"]
+    D1 --> E["🚀 Learning Outcomes"]
     D2 --> E
     D3 --> E
     
@@ -91,20 +91,20 @@ graph TD
     style E fill:#f1f8e9
 ```
 
-### 🚀 Performance Improvements
-- **15-25% efficiency gains** through optimized budget allocation
-- **Proactive campaign management** using predictive insights
-- **Data-driven decision framework** for ongoing optimization
+### 🚀 Methodological Findings
+- **Model Performance**: ARIMA vs ETS comparison reveals different strengths for various KPI types
+- **Forecasting Accuracy**: Analysis demonstrates reasonable predictive capability within synthetic data constraints
+- **Scenario Planning**: Framework shows potential for data-driven budget allocation approaches
 
-### 💰 Cost Optimization
-- Identify potential cost savings through performance-based spending
-- Optimize budget allocation based on forecasted ROAS trends
-- Reduce wasteful spending on underperforming campaign days
+### 💰 Theoretical Optimization Opportunities
+- Models suggest potential cost savings through performance-based spending patterns
+- Budget reallocation scenarios demonstrate possible efficiency improvements
+- Analysis identifies periods where spend adjustments could theoretically improve ROAS
 
-### 📈 Strategic Benefits
-- **Predictive Planning**: Forecast future campaign performance with confidence
-- **Risk Mitigation**: Early identification of performance deviations
-- **Scalable Framework**: Easily adaptable to different campaign types and channels
+### 📈 Academic Learning Outcomes
+- **Applied Analytics**: Successfully implemented time series forecasting in marketing context
+- **Business Translation**: Converted statistical findings into business-relevant recommendations
+- **Critical Evaluation**: Recognized model limitations and real-world implementation challenges
 
 ## 🏗️ Model Architecture & Data Flow
 
@@ -214,12 +214,12 @@ kpi-forecasting-for-media-campaigns/
 └── LICENSE                                     # MIT License
 ```
 
-## 🎯 Use Cases
+## 🎯 Academic Applications
 
-- **Campaign Managers**: Optimize daily budget allocation decisions
-- **Marketing Analysts**: Forecast campaign performance and identify trends
-- **Data Scientists**: Implement time series forecasting for marketing KPIs
-- **Business Stakeholders**: Understand ROI potential of campaign optimization
+- **Business Analytics Students**: Learn time series forecasting methodology in marketing context
+- **Marketing Research**: Understand predictive modeling approaches for campaign optimization
+- **Data Science Education**: Practice implementing ARIMA/ETS models with business interpretation
+- **Case Study Analysis**: Explore theoretical application of analytics to marketing challenges
 
 ## 🔮 Future Enhancements
 
@@ -229,9 +229,17 @@ kpi-forecasting-for-media-campaigns/
 - **Automated Reporting**: Build dashboards for continuous monitoring
 - **A/B Testing Framework**: Integrate experimental design capabilities
 
-## 📝 Disclaimer
+## 📝 Academic Context & Limitations
 
-> **⚠️ IMPORTANT**: All data used in this project is **synthetic and generated for educational/demonstration purposes only**. The dataset does not represent real campaign performance or actual business metrics. Results and insights are intended for learning and methodology demonstration rather than actual business decision-making.
+> **🎓 ACADEMIC SIMULATION**: This project is designed as a **graduate-level business school simulation** using entirely synthetic data. All campaign data, performance metrics, and optimization results are artificially generated for educational purposes.
+> 
+> **⚠️ IMPORTANT LIMITATIONS**: 
+> - Results do not reflect real marketing campaign performance
+> - Efficiency gains and cost savings are theoretical calculations based on synthetic data
+> - Real-world implementation would face additional challenges (market dynamics, competitive responses, data quality issues)
+> - Models have not been validated against actual campaign data
+> 
+> This analysis demonstrates **methodology and analytical thinking** rather than proven business outcomes.
 
 ## 🤝 Contributing
 
@@ -243,4 +251,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**📈 Ready to optimize your campaign performance? Start forecasting and unlock data-driven insights today!**
+**📚 This simulation demonstrates the application of time series forecasting to marketing analytics challenges, serving as a learning exercise in business data science methodology.**
