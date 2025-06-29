@@ -20,6 +20,22 @@ The solution enables marketing teams to make proactive budget allocation decisio
 
 ## 🔄 Workflow Summary
 
+```mermaid
+graph TD
+    A["📊 Synthetic Data Generation<br/>180 days of campaign data"] --> B["🔍 Exploratory Data Analysis<br/>Statistical analysis & visualization"]
+    B --> C["📈 Time Series Modeling<br/>ARIMA & ETS models"]
+    C --> D["⚖️ Model Performance Evaluation<br/>MAPE, RMSE, MAE metrics"]
+    D --> E["💰 Budget Scenario Analysis<br/>4 optimization strategies"]
+    E --> F["🎯 Strategic Insights<br/>Actionable recommendations"]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    style F fill:#f1f8e9
+```
+
 ### 1. Synthetic Data Generation
 - Generate realistic 180-day campaign dataset with authentic patterns
 - Include seasonality effects, market volatility, and campaign lifecycle patterns
@@ -53,6 +69,28 @@ The solution enables marketing teams to make proactive budget allocation decisio
 
 ## 💡 Key Insights & Business Impact
 
+```mermaid
+graph TD
+    A["📈 Current Performance"] --> B["🔮 Predictive Forecasting"]
+    B --> C{"💡 Optimization Strategy"}
+    
+    C --> D1["📊 15-25% Efficiency Gains"]
+    C --> D2["💰 Cost Optimization"]
+    C --> D3["🎯 Proactive Management"]
+    
+    D1 --> E["🚀 Enhanced ROI"]
+    D2 --> E
+    D3 --> E
+    
+    style A fill:#ffebee
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+    style D1 fill:#e1f5fe
+    style D2 fill:#e1f5fe
+    style D3 fill:#e1f5fe
+    style E fill:#f1f8e9
+```
+
 ### 🚀 Performance Improvements
 - **15-25% efficiency gains** through optimized budget allocation
 - **Proactive campaign management** using predictive insights
@@ -67,6 +105,57 @@ The solution enables marketing teams to make proactive budget allocation decisio
 - **Predictive Planning**: Forecast future campaign performance with confidence
 - **Risk Mitigation**: Early identification of performance deviations
 - **Scalable Framework**: Easily adaptable to different campaign types and channels
+
+## 🏗️ Model Architecture & Data Flow
+
+```mermaid
+graph LR
+    subgraph "📊 Input Data"
+        A1["Daily Spend"]
+        A2["Impressions"]
+        A3["Clicks"]
+        A4["Conversions"]
+        A5["CPA"]
+        A6["ROAS"]
+    end
+    
+    subgraph "🔮 Forecasting Models"
+        B1["ARIMA<br/>Trend-based"]
+        B2["ETS<br/>Seasonal patterns"]
+    end
+    
+    subgraph "💰 Optimization Scenarios"
+        C1["Current Baseline"]
+        C2["ROAS Optimized"]
+        C3["Cost Reduction"]
+        C4["Growth Investment"]
+    end
+    
+    A1 --> B1
+    A2 --> B1
+    A3 --> B2
+    A4 --> B2
+    A5 --> B1
+    A6 --> B2
+    
+    B1 --> C1
+    B1 --> C2
+    B2 --> C3
+    B2 --> C4
+    
+    style A1 fill:#e3f2fd
+    style A2 fill:#e3f2fd
+    style A3 fill:#e3f2fd
+    style A4 fill:#e3f2fd
+    style A5 fill:#e3f2fd
+    style A6 fill:#e3f2fd
+    style B1 fill:#e8f5e8
+    style B2 fill:#e8f5e8
+    style C1 fill:#fff3e0
+    style C2 fill:#fff3e0
+    style C3 fill:#fff3e0
+    style C4 fill:#fff3e0
+```
 
 ## 🛠️ Technologies Used
 
